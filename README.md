@@ -9,4 +9,5 @@ The DP mechanisms studied in this research are:
 * For response variable ($Y$): Randomized Response
 
 ## Data
-The dataset used for this research was a loan dataset containing 20,000 entries and 35 features. These features included various socioeconomic and financial attributes such as age, annual income, credit score, employment status, education level, loan amount, loan duration, and more. The target variable, LoanApproved, was a binary variable indicating whether a loan was approved (1) or not (0). The dataset is retrieved from Kaggle. [https://www.kaggle.com/datasets/lorenzozoppelletto/financial-risk-for-loan-approval?resource=download]
+The dataset used for this research was a loan dataset containing 20,000 entries and 35 features. These features included various socioeconomic and financial attributes such as age, annual income, credit score, employment status, education level, loan amount, loan duration, and more. The target variable, LoanApproved, was a binary variable indicating whether a loan was approved (1) or not (0). The dataset is retrieved from Kaggle: https://www.kaggle.com/datasets/lorenzozoppelletto/financial-risk-for-loan-approval?resource=download
+
