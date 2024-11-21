@@ -5,8 +5,8 @@ The primary research question of this project was: How does the introduction of 
 Differential Privacy is a framework designed to ensure that the privacy of individuals is maintained when analyzing data and training machine learning models. It achieves this by introducing a controlled amount of random noise to datasets or outputs, making it difficult to infer any single individual's information even if an attacker has additional background knowledge.
 
 The DP mechanisms studied in this research are:
-* For features ($X_i$): Laplace mechanism, Truncated Laplace Mechanism, and Gaussian mechanism
-* For response variable ($Y$): Randomized Response
+* For features ($X_i$): **Laplace mechanism, Truncated Laplace Mechanism, and Gaussian mechanism**
+* For response variable ($Y$): **Randomized Response**
 
 ## Data
 The dataset used for this research was a loan dataset containing 20,000 entries and 35 features. These features included various socioeconomic and financial attributes such as age, annual income, credit score, employment status, education level, loan amount, loan duration, and more. The target variable, LoanApproved, was a binary variable indicating whether a loan was approved (1) or not (0). The dataset is retrieved from Kaggle: https://www.kaggle.com/datasets/lorenzozoppelletto/financial-risk-for-loan-approval?resource=download
@@ -26,7 +26,7 @@ The dataset used for this research was a loan dataset containing 20,000 entries 
 ## Computational Environment
 * Programming Language: Python on Google Colab
 * Libraries Used:
-  * pandas, numpy and math for data manipulation and analysis
-  * sklearn for machine learning models, data preprocessing, and evaluation
-  * matplotlib for data visualization
-  * multiprocessing for parallel processing to improve computational efficiency
+  * $${\color{greenyellow}pandas, numpy}$$ and $${\color{greenyellow}math}$$ for data manipulation and analysis
+  * $${\color{greenyellow}sklearn}$$ for machine learning models, data preprocessing, and evaluation
+  * $${\color{greenyellow}matplotlib}$$ for data visualization
+  * $${\color{greenyellow}multiprocessing}$$ for parallel processing to improve computational efficiency
